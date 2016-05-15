@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Home Initiative, Inc.</title>
+    <!-- <script src="//fast.eager.io/tBCLhoJujs.js"></script> -->
+    <link href="favicon.ico" rel="shortcut icon">
+    <script src="js/pace.js"></script>
+    <link href="css/pace.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/overlay.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        #backpad_w {
+            background-color: white;
+            z-index: 0;
+            background: rgba(255, 255, 255, 0.5);
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        #backpad_b {
+            background-color: black;
+            z-index: 0;
+            background: rgba(0, 0, 0, 0.35);
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body >
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand" style="color: white;">
+                Home Initiative
+            </li>
+            <li>
+                <a onclick="$('#menu-close').click(); scrollToAnchor('home');">Home</a>
+            </li>
+            <li>
+                <a onclick="$('#menu-close').click(); scrollToAnchor('about');">About</a>
+            </li>
+            <li>
+                <a onclick="$('#menu-close').click(); scrollToAnchor('services');">Services</a>
+            </li>
+            <li>
+                <a onclick="$('#menu-close').click(); scrollToAnchor('ourhomes');">Our Homes</a>
+            </li>
+            <li>
+                <a onclick="$('#menu-close').click(); scrollToAnchor('bylawsandmission');">By-Laws &amp; Mission</a>
+            </li>
+            <li>
+                <a onclick="$('#menu-close').click(); scrollToAnchor('contact');">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header" style="">
+        <a name="home"></a>
+        <div class="text-vertical-center">
+            <div id="backpad_w" style="display: inline-block; padding-left: 20px; padding-right: 20px; border-radius: 25px;">
+                <h1>Home Initiative <h2>of Atlantic City</h2></h1>
+                <br>
+                <a class="btn btn-dark btn-lg" onclick="scrollToAnchor('about');">Find Out More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Vision -->
+    <section id="about" class="about">
+        <a name="about"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Our Vision</h2>
+                    <p class="lead">The Home Initiative philosophy is a belief a just society provides safe, quality and affordable housing for all. Housing is a basic human right that should be available to all, regardless of income, family makeup or any other defining
+                        factors. As a result, inhabitants of our region will have access to decent, cost-appropriate housing that meets their needs. Communities, including their residents and governing bodies, will value attractive, affordable neighborhoods
+                        essential to everyday life.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <a name="services"></a>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Our Services</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-dollar fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Affordable</strong>
+                                </h4>
+                                <p>Provide &amp; Develop quality affordable housing opportunities</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-users fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>All People</strong>
+                                </h4>
+                                <p>Provide for individuals &amp; families</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-anchor fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Stability</strong>
+                                </h4>
+                                <p>Provide self-sufficiency, education &amp; neighborhood revitalization</p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wrench fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Reconstruct</strong>
+                                </h4>
+                                <p>Renovating vacant, abandoned &amp; inhabitable homes</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center" id="backpad_b" style="padding-left: 2em; padding-right: 2em;">
+            <h2>Home ownership lies at the very heart of the American Dream. It is our responsibility to help the dream come true for others</h2>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <a name="ourhomes"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our Homes</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="https://placehold.it/500x333">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="https://placehold.it/500x333">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="https://placehold.it/500x333">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="https://placehold.it/500x333">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a class="overlay-trigger btn btn-dark" data-overlay="overlay-form">View More Items</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <aside class="call-to-action bg-primary">
+        <a name="bylawsandmission"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>By Laws &amp; Mission Statement</h3>
+                    <button class="btn btn-lg btn-light" data-toggle="collapse" data-target="#bylaws">View By-Laws</button>
+                    <button class="btn btn-lg btn-dark" data-toggle="collapse" data-target="#mission">View our Mission Plan</button>
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 text-center collapse" id="bylaws">
+                    <iframe src="http://docs.google.com/gview?url=http://www.homeinitiative.net/dev/documents/BYLAWS.docx&embedded=true" style="width: 100%; height:60em;"></iframe>
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 text-center collapse" id="mission">
+                    <iframe src="http://docs.google.com/gview?url=http://www.homeinitiative.net/dev/documents/MissonPlan.docx&embedded=true" style="width: 100%; height:60em;"></iframe>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </aside>
+
+    <!-- MAP
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+        </iframe>
+    </section> -->
+
+    <!-- Footer -->
+    <footer>
+        <a name="contact"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Home Initiative, Inc.</strong>
+                    </h4>
+                    <!--<p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>-->
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (609) 748-3600</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:contactus@homeinitiative.net">contactus@homeinitiative.net</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <!--<ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>-->
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Home Initiative, Inc. 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="overlay-form" class="overlay">
+        <div class="overlay-inner" style="border-radius:6px;">
+            <div class="text-center">
+                <h2>More Homes</h2></div>
+            <hr class="small">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="https://placehold.it/500x333">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="https://placehold.it/500x333">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="https://placehold.it/500x333">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="https://placehold.it/500x333">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="https://placehold.it/500x333">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-portfolio img-responsive" src="https://placehold.it/500x333">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/overlay.js"></script>
+    <!-- jQuery -->
+
+
+    <!-- Bootstrap Core JavaScript -->
+
+
+    <!-- Custom JavaScript -->
+    <script>
+        $(function() { //random first page image
+            //style="background: url(img/covers/1.png) no-repeat center center scroll; -webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;display: table;position: relative;width: 100%;height: 100%;"
+            var random = Math.floor(Math.random() * 3) + 1;
+            document.getElementById('top').style = 'background: url(img/covers/' + random +
+                '.png) no-repeat center center scroll; -webkit-background-size: cover;-moz-background-size: cover;background-size: cover;-o-background-size: cover;display: table;position: relative;width: 100%;height: 100%;';
+        });
+        $('#supportReviewBtn').click(function() {
+            $('#subject').attr('value', "Computer Support Review");
+            $('#resetMe').click();
+            document.getElementById('formHeader').innerHTML = "Computer Support Review";
+            $('#ratingGroup').attr('style', "visibility: visible; width: 100%; height: 100%;");
+            $('#formToSubmit').attr('action', "reviewSQL.php");
+            document.getElementById('revieworsupport').innerHTML = "Review:";
+            $('#userReview').attr('placeholder', "Enter Review Here");
+        });
+        // Closes the sidebar menu
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+
+        function scrollToAnchor(aid) {
+            var aTag = $("a[name='" + aid + "']");
+            $('html,body').animate({
+                scrollTop: aTag.offset().top
+            }, 'slow');
+        }
+        // Scrolls to the selected menu item on the page
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

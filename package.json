@@ -1,0 +1,30 @@
+{
+  "name": "home_initiative",
+  "version": "1.0.0",
+  "description": "This is the website repository for the Home Initiative of Atlantic City",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danner26/HomeInitiative.git"
+  },
+  "keywords": [
+    "website",
+    "html",
+    "javascript",
+    "css",
+    "jquery"
+  ],
+  "author": "Daniel W. Anner <daniel.anner@danstechsupport.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/danner26/HomeInitiative/issues"
+  },
+  "homepage": "https://github.com/danner26/HomeInitiative#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3"
+  }
+}

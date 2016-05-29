@@ -33,7 +33,7 @@
         #backpad_w {
             background-color: white;
             z-index: 0;
-            background: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.75);
             padding-top: 20px;
             padding-bottom: 20px;
         }
@@ -84,7 +84,9 @@
         <a name="home"></a>
         <div class="text-vertical-center">
             <div id="backpad_w" style="display: inline-block; padding-left: 20px; padding-right: 20px; border-radius: 25px;">
-                <h1>Home Initiative <h2>of Atlantic City</h2></h1>
+                <h1>Home Initiative, Inc. <h2>of Atlantic City</h2></h1>
+                <br>
+                <h3>A Non-Profit Corporation dedicated to providing affordable housing to low and moderate income families in the South Jersey Markets</h3>
                 <br>
                 <a class="btn btn-dark btn-lg" onclick="scrollToAnchor('about');">Find Out More</a>
             </div>
@@ -92,7 +94,7 @@
     </header>
 
     <!-- Vision -->
-    <section id="about" class="about">
+    <section id="about" class="about bg-primary">
         <a name="about"></a>
         <div class="container">
             <div class="row">
@@ -110,7 +112,7 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="services" class="services ">
         <a name="services"></a>
         <div class="container">
             <div class="row text-center">
@@ -180,14 +182,14 @@
         <!-- /.container -->
     </section>
 
-    <!-- Callout -->
+    <!--Callout
     <aside class="callout">
         <div class="text-vertical-center" id="backpad_b" style="padding-left: 2em; padding-right: 2em;">
             <h2>Home ownership lies at the very heart of the American Dream. It is our responsibility to help the dream come true for others</h2>
         </div>
-    </aside>
+    </aside>-->
 
-    <!-- Portfolio -->
+    <!-- Portfolio
     <section id="portfolio" class="portfolio">
         <a name="ourhomes"></a>
         <div class="container">
@@ -225,15 +227,15 @@
                             </div>
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
+                     /.row (nested)
                     <a class="overlay-trigger btn btn-dark" data-overlay="overlay-form">View More Items</a>
                 </div>
-                <!-- /.col-lg-10 -->
+                /.col-lg-10
             </div>
-            <!-- /.row -->
+            /.row -->
         </div>
-        <!-- /.container -->
-    </section>
+        <!-- /.container
+    </section>-->
 
     <aside class="call-to-action bg-primary">
         <a name="bylawsandmission"></a>
@@ -241,6 +243,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>By Laws &amp; Mission Statement</h3>
+                    <button class="btn btn-lg btn-dark" data-toggle="collapse" data-target="#bro">View our brochure</button>
                     <button class="btn btn-lg btn-light" data-toggle="collapse" data-target="#bylaws">View By-Laws</button>
                     <button class="btn btn-lg btn-dark" data-toggle="collapse" data-target="#mission">View our Mission Plan</button>
                 </div>
@@ -249,6 +252,9 @@
                 </div>
                 <div class="col-lg-10 col-lg-offset-1 text-center collapse" id="mission">
                     <iframe src="http://docs.google.com/gview?url=http://www.homeinitiative.net/dev/documents/MissonPlan.docx&embedded=true" style="width: 100%; height:60em;"></iframe>
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 text-center collapse" id="bro" style="width:80%;">
+                    <img src="img/page-0.jpg" style="width:80%;"><br><img src="img/page-1.jpg" style="width:80%;">
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
